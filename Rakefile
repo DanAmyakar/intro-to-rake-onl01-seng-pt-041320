@@ -23,7 +23,7 @@ namespace :db do
   
   desc 'seed the database with some dumy data'
   task :seed do
-    require_relative './db/seeds/rb'
+    require_relative './db/seeds.rb'
   end
 end
 
